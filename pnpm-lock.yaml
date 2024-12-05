@@ -10,4 +10,8 @@ importers:
 
   packages/bar: {}
 
-  packages/foo: {}
+  packages/foo:
+    dependencies:
+      bar:
+        specifier: workspace:*
+        version: link:../bar
