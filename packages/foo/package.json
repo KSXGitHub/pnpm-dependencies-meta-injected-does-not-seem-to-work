@@ -1,10 +1,5 @@
 {
-  "name": "bar",
+  "name": "foo",
   "version": "0.0.0",
-  "private": true,
-  "dependenciesMeta": {
-    "bar": {
-      "injected": true
-    }
-  }
+  "private": true
 }
