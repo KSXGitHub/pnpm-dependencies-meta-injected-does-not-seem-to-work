@@ -6,8 +6,6 @@ settings:
 
 importers:
 
-  .: {}
-
   packages/bar: {}
 
   packages/foo:
