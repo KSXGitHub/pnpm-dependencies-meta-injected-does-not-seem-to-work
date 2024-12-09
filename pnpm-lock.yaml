@@ -12,4 +12,16 @@ importers:
     dependencies:
       bar:
         specifier: workspace:*
-        version: link:../bar
+        version: file:packages/bar
+    dependenciesMeta:
+      bar:
+        injected: true
+
+packages:
+
+  bar@file:packages/bar:
+    resolution: {directory: packages/bar, type: directory}
+
+snapshots:
+
+  bar@file:packages/bar: {}
